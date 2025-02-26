@@ -2,7 +2,8 @@ cmake_minimum_required(VERSION 3.14)
 project(ros2_pkg_template)
 
 find_package(ament_cmake_python REQUIRED)
-
+find_package(ament_cmake_auto REQUIRED)
+ament_auto_find_build_dependencies()
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

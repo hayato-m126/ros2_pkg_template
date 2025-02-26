@@ -29,5 +29,6 @@
   ],
   "python.analysis.extraPaths": [
     "/opt/ros/humble/lib/python3.10/site-packages",
-  ]
+],
+"cmake.sourceDirectory": "/home/hayatomizushima/ghq/github.com/hayato-m126/ros2_pkg_template/ros2_pkg_template"
 }
